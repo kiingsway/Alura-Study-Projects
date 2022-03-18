@@ -1,5 +1,10 @@
-body {
-    background: #CCC;
+body {}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
 }
 
 p {
@@ -9,4 +14,38 @@ p {
 em strong {
     color: #000FFF;
     color: rgb(0, 16, 255);
+}
+
+#missao {
+    font-size: 20px;
+}
+
+#banner {
+    width: 100%;
+}
+
+.titulo-principal {
+    padding-left: 20px;
+}
+
+.titulo-centralizado {
+    text-align: center;
+}
+
+.itens {
+    font-style: italic;
+}
+
+.beneficios {
+    background-color: white;
+    padding: 20px;
+}
+
+.principal {
+    background-color: #CCC;
+    padding: 30px;
+}
+
+.img-beneficios {
+    width: 50%;
 }
