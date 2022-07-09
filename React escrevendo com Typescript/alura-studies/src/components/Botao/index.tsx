@@ -1,15 +1,20 @@
-import React, { ReactFragment } from "react"
+import React from "react"
 import style from './Botao.module.scss'
 
-type Params = {
+interface Props {
     type?: "button" | "submit" | "reset" | undefined;
-    children?: ReactFragment | undefined;
+    children?: React.ReactNode,
+    onClick?: () => void
 }
 
-const Botao: React.FC<Params> = (props:Params) =>{   
+function Botao({onClick, type, children}: Props) {
     return(
-        <button type={props.type} className={style.botao}>
-            {props.children}
+        <button
+            onClick={onClick}
+            type={type}
+            className={style.botao}>
+                
+            {children}
         </button>
     )
 }
