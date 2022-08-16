@@ -2,7 +2,14 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPenToSquare, faQuestion, faTrashCan } from '@fortawesome/free-solid-svg-icons'
 
-export default function Atividade(props: any) {
+interface Props {
+  priority: any
+  atividade: any
+  delAtividade(IdAtividade: number): any
+  obterAtividade(IdAtividade: number): any
+}
+
+export default function Atividade(props: Props) {
   return (
     <div className={`card mb-2 shadow-sm border border-${props.priority?.Color}`}>
       <div className="card-body">
@@ -14,13 +21,13 @@ export default function Atividade(props: any) {
           <h6>
             Prioridade:
             <span className={`badge text-bg-${props.priority?.Color} ms-2`}>
-              <FontAwesomeIcon icon={props.priority?.Icon || faQuestion} className='me-2' />
-              {props.priority?.Title}
+              <FontAwesomeIcon icon={props.priority.Icon || faQuestion} className='me-2' />
+              {props.priority.Title}
             </span>
             
           </h6>
         </div>
-        <p className="card-text">{props.atividade.Description}</p>
+        <p className="card-text">{props.atividade?.Description}</p>
         <div className="d-flex justify-content-end pt-2 m-0 border-top">
           <button
             className="btn btn-sm btn-outline-danger me-2"
