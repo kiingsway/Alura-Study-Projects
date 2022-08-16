@@ -8,7 +8,7 @@ import Formulario from './pages/Formulario';
 import Atividades from './pages/Atividades';
 
 const priorities = [
-  { Id: 1, Title: 'Urgente', Icon: faBell, Color: 'danger' },
+  { Id: 1, Title: 'Urgente!', Icon: faBell, Color: 'danger' },
   { Id: 2, Title: 'Alta', Icon: faExclamation, Color: 'warning' },
   { Id: 3, Title: 'Média', Icon: faCircle, Color: 'dark' },
   { Id: 4, Title: 'Baixa', Icon: faDownLong, Color: 'secondary' }
