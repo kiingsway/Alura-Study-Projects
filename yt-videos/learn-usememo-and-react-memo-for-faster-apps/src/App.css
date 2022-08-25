@@ -1,0 +1,32 @@
+html {
+    background-color: #333;
+    color: #EEE;
+}
+
+.App {
+    text-align: center;
+}
+
+.parts {
+    margin: 5px auto 10px auto;
+    font-size: 20px;
+    border-radius: 4px;
+    width: 90%;
+    padding: 10px;
+}
+
+.part1 {
+    border: 1px solid red;
+}
+
+.part2 {
+    border: 1px solid orange;
+}
+
+.part3 {
+    border: 1px solid yellow;
+}
+
+.part4 {
+    border: 1px solid greenyellow;
+}
