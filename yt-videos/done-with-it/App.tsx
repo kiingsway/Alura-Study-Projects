@@ -15,6 +15,8 @@ import {
   Alert
 } from 'react-native';
 
+// https://www.youtube.com/watch?v=0-S5a0eXPoc&ab_channel=ProgrammingwithMosh
+
 export default function App() {
 
   const [sw, setSw] = useState(false);
