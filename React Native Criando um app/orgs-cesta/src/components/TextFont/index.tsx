@@ -3,7 +3,7 @@ import { Text, StyleSheet } from 'react-native'
 
 interface Props {
   children: any;
-  style: any;
+  style?: any;
   boldText?: boolean;
 }
 

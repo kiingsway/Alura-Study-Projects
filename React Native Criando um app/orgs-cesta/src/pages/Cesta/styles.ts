@@ -56,11 +56,31 @@ export const styles = StyleSheet.create({
     color: '#249F85',
     marginTop: 8,
   },
-  btnBuy: {
-    color: '#249F85',
+  button: {
+    marginTop: 16,
+    backgroundColor: '#2A9F85',
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: 6,
+    paddingVertical: 16,
 
   },
+  buttonText: {
+    color: 'white',
+    fontSize: 16,
+    lineHeight: 26,
+  },
+  ListTitle: {
+    color: '#464646',
+    fontWeight: 'bold',
+    marginTop: 32,
+    marginBottom: 8,
+    fontSize: 20,
+    lineHeight: 32
+  }
 });
+
+export default styles;
 
 function padding(a: number, b?: number, c?: number, d?: number) {
 
