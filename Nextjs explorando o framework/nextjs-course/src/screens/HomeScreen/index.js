@@ -1,3 +1,4 @@
+import React from 'react';
 import Footer from '../../components/patterns/Footer'
 import Link from '../../components/Link'
 import { theme } from '../../theme/theme';
