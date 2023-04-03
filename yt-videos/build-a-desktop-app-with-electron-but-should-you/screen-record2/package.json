@@ -1,0 +1,20 @@
+{
+  "name": "screen-record2",
+  "version": "1.0.0",
+  "description": "Realizando tutorial do vídeo \"Build a Desktop App with Electron... But should You?\"",
+  "main": "main.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "ksway",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^23.2.1"
+  },
+  "dependencies": {
+    "@electron/remote": "^2.0.9",
+    "resize-img": "^2.0.0",
+    "toastify-js": "^1.12.0"
+  }
+}
